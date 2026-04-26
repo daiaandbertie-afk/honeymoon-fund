@@ -102,7 +102,7 @@ function ThankYouContent() {
           }}
         >
           Your generous contribution toward {experience} means more to us than
-          you know. We can't wait to share photos from Slovenia with you.
+          you know. We can't wait to share photos from Prague with you.
         </p>
 
         <p

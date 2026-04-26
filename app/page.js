@@ -3,14 +3,14 @@
 import { useState } from "react";
 
 const EXPERIENCES = [
-  { id: 1, title: "Pletna Boat Ride on Lake Bled", description: "Gliding across emerald water to the tiny island church, ringing the bell of wishes together.", goal: 120, tag: "Experience" },
-  { id: 2, title: "Dinner Overlooking the Alps", description: "A long, slow meal at a lakeside restaurant as the Julian Alps turn pink in the evening light.", goal: 300, tag: "Dining" },
-  { id: 3, title: "Soča River Adventure", description: "Kayaking the impossibly turquoise waters of the Soča Valley — one of the most beautiful rivers in Europe.", goal: 200, tag: "Adventure" },
-  { id: 4, title: "Alpine Spa for Two", description: "A couples' massage and thermal pools surrounded by mountain air and absolute quiet.", goal: 250, tag: "Wellness" },
-  { id: 5, title: "Hike in Triglav National Park", description: "A day among wildflower meadows, glacial lakes, and the kind of silence you can only find above the treeline.", goal: 150, tag: "Nature" },
-  { id: 6, title: "Wine Tasting in Goriška Brda", description: "Slovenia's hidden wine country — rolling hills, orange wines, and family vineyards with views into Italy.", goal: 200, tag: "Dining" },
-  { id: 7, title: "A Night in a Mountain Chalet", description: "Waking up in a wooden cabin above the clouds, with nothing but peaks and coffee and each other.", goal: 350, tag: "Stay" },
-  { id: 8, title: "Flights & Travel Fund", description: "Help get us from New York to the Alps and back — every mile matters.", goal: 1500, tag: "Travel" },
+  { id: 1, title: "Dinner at a Michelin-Starred Restaurant", description: "A long, candlelit evening at one of Prague's celebrated restaurants — Czech cuisine reimagined with artistry and care.", goal: 350, tag: "Dining" },
+  { id: 2, title: "Private Walking Tour of Old Town", description: "Cobblestones, Gothic spires, and the Astronomical Clock — discovering eight centuries of history with a local guide.", goal: 150, tag: "Experience" },
+  { id: 3, title: "Sunset Cruise on the Vltava", description: "Drifting beneath Charles Bridge as the castle and city skyline turn golden in the evening light.", goal: 200, tag: "Experience" },
+  { id: 4, title: "Spa Day at a Historic Bathhouse", description: "Soaking in thermal waters in a centuries-old building — the kind of afternoon that makes you forget what day it is.", goal: 250, tag: "Wellness" },
+  { id: 5, title: "Czech Wine & Beer Tasting", description: "From Moravian whites in hidden cellars to craft breweries in converted factories — tasting our way through the city.", goal: 175, tag: "Dining" },
+  { id: 6, title: "Day Trip to Český Krumlov", description: "A fairy-tale medieval town in the Bohemian countryside, with a Renaissance castle perched above a winding river.", goal: 200, tag: "Adventure" },
+  { id: 7, title: "A Night at a Boutique Hotel", description: "Waking up in a beautifully restored building in Malá Strana, with rooftop views of the castle and red-tiled roofs.", goal: 350, tag: "Stay" },
+  { id: 8, title: "Flights & Travel Fund", description: "Help get us from New York to Prague and back — every mile matters.", goal: 1500, tag: "Travel" },
 ];
 
 const PRESETS = [50, 100, 150, 250];
@@ -154,13 +154,13 @@ export default function HoneymoonFund() {
         <p style={S.over}>The Honeymoon Fund of</p>
         <h1 style={S.names}>Daia &amp; Bertie</h1>
         <Ornament />
-        <p style={S.dest}>The Julian Alps, Slovenia</p>
+        <p style={S.dest}>Prague, Czech Republic</p>
         <p style={S.body}>
           Your presence at our wedding is the greatest gift we could ask for.
           But if you'd like to contribute to the next chapter of our adventure
-          together, we're heading to Slovenia — a country with the word
-          "love" in its name — for emerald lakes, Alpine peaks, and a week of
-          exploring one of Europe's most beautiful hidden corners.
+          together, we're heading to Prague — a city of spires, cobblestones,
+          and golden light — for a week of exploring one of the most beautiful
+          cities in the world.
         </p>
         <p style={S.sub}>Every contribution, no matter the size, goes directly toward making these memories real.</p>
       </header>
