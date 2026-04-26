@@ -164,14 +164,20 @@ export default function HoneymoonFund() {
         <p style={S.sub}>Every contribution, no matter the size, goes directly toward making these memories real.</p>
       </header>
 
-      <section style={S.grid}>
-        {EXPERIENCES.map((e, i) => <Card key={e.id} exp={e} i={i} onPick={setModal} />)}
+      <section style={S.gen}>
+        <button onClick={() => setModal("general")} style={S.genBtn}>Contribute to Our Honeymoon</button>
       </section>
 
-      <section style={S.gen}>
-        <Ornament />
-        <p style={{ fontSize: 15, color: "#6B8A6E", margin: "16px 0 12px" }}>Prefer to contribute to the trip as a whole?</p>
-        <button onClick={() => setModal("general")} style={S.genBtn}>Contribute to Our Honeymoon</button>
+      <section style={S.orSection}>
+        <div style={{ display: "flex", alignItems: "center", gap: 14, justifyContent: "center" }}>
+          <div style={{ width: 60, height: 1, background: "rgba(91,123,94,0.15)" }} />
+          <p style={{ fontSize: 12, color: "#9DAF9F", letterSpacing: "0.12em", textTransform: "uppercase", fontWeight: 500, margin: 0 }}>or choose an experience</p>
+          <div style={{ width: 60, height: 1, background: "rgba(91,123,94,0.15)" }} />
+        </div>
+      </section>
+
+      <section style={S.grid}>
+        {EXPERIENCES.map((e, i) => <Card key={e.id} exp={e} i={i} onPick={setModal} />)}
       </section>
 
       <section style={S.bloomSection}>
@@ -181,7 +187,7 @@ export default function HoneymoonFund() {
           We've also put together a small registry at Bloomingdale's for those
           who'd rather give something we can unwrap.
         </p>
-        <a href="https://www.bloomingdales.com/registry/wedding" target="_blank" rel="noopener noreferrer" style={S.bloomLink}>
+        <a href="https://www.bloomingdales.com/registry/wedding/guest/?registryId=REPLACE_THIS" target="_blank" rel="noopener noreferrer" style={S.bloomLink}>
           View our Bloomingdale's Registry
         </a>
       </section>
@@ -221,7 +227,8 @@ const S = {
   cFoot: { display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: 16, paddingTop: 12, borderTop: "1px solid rgba(91,123,94,0.08)" },
   cBtn: { color: "#F7FAF5", border: "none", padding: "7px 18px", borderRadius: 100, fontSize: 12, fontWeight: 500, cursor: "pointer", transition: "background 0.25s", fontFamily: "inherit", letterSpacing: "0.02em" },
 
-  gen: { position: "relative", zIndex: 1, textAlign: "center", padding: "8px 24px 36px", maxWidth: 460, margin: "0 auto" },
+  gen: { position: "relative", zIndex: 1, textAlign: "center", padding: "4px 24px 8px", maxWidth: 460, margin: "0 auto" },
+  orSection: { position: "relative", zIndex: 1, textAlign: "center", padding: "8px 24px 4px", maxWidth: 500, margin: "0 auto" },
   genBtn: { background: "transparent", color: "#5B7B5E", border: "1.5px solid #C4908B", padding: "11px 28px", borderRadius: 100, fontSize: 13, fontWeight: 500, cursor: "pointer", transition: "all 0.3s", fontFamily: "inherit", letterSpacing: "0.04em" },
 
   bloomSection: { position: "relative", zIndex: 1, textAlign: "center", padding: "0 24px 44px", maxWidth: 460, margin: "0 auto" },
