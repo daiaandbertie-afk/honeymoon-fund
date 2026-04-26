@@ -187,7 +187,7 @@ export default function HoneymoonFund() {
           We've also put together a small registry at Bloomingdale's for those
           who'd rather give something we can unwrap.
         </p>
-        <a href="https://www.bloomingdales.com/registry/wedding/guest/?registryId=REPLACE_THIS" target="_blank" rel="noopener noreferrer" style={S.bloomLink}>
+        <a href="https://www.bloomingdales.com/registry/Daia-Ernst-Bertie-Woodward-Fisher/1435121" target="_blank" rel="noopener noreferrer" style={S.bloomLink}>
           View our Bloomingdale's Registry
         </a>
       </section>
