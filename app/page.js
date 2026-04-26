@@ -4,13 +4,12 @@ import { useState } from "react";
 
 const EXPERIENCES = [
   { id: 1, title: "Dinner at a Michelin-Starred Restaurant", description: "A long, candlelit evening at one of Prague's celebrated restaurants — Czech cuisine reimagined with artistry and care.", goal: 350, tag: "Dining" },
-  { id: 2, title: "Private Walking Tour of Old Town", description: "Cobblestones, Gothic spires, and the Astronomical Clock — discovering eight centuries of history with a local guide.", goal: 150, tag: "Experience" },
   { id: 3, title: "Sunset Cruise on the Vltava", description: "Drifting beneath Charles Bridge as the castle and city skyline turn golden in the evening light.", goal: 200, tag: "Experience" },
   { id: 4, title: "Spa Day at a Historic Bathhouse", description: "Soaking in thermal waters in a centuries-old building — the kind of afternoon that makes you forget what day it is.", goal: 250, tag: "Wellness" },
   { id: 5, title: "Czech Wine & Beer Tasting", description: "From Moravian whites in hidden cellars to craft breweries in converted factories — tasting our way through the city.", goal: 175, tag: "Dining" },
   { id: 6, title: "Day Trip to Český Krumlov", description: "A fairy-tale medieval town in the Bohemian countryside, with a Renaissance castle perched above a winding river.", goal: 200, tag: "Adventure" },
   { id: 7, title: "A Night at a Boutique Hotel", description: "Waking up in a beautifully restored building in Malá Strana, with rooftop views of the castle and red-tiled roofs.", goal: 350, tag: "Stay" },
-  { id: 8, title: "Flights & Travel Fund", description: "Help get us from New York to Prague and back — every mile matters.", goal: 1500, tag: "Travel" },
+  { id: 8, title: "Flights & Travel Fund", description: "Help get us from New York to Prague and back — every mile matters.", goal: 2000, tag: "Travel" },
 ];
 
 const PRESETS = [50, 100, 150, 250];
