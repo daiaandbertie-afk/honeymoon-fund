@@ -3,13 +3,13 @@
 import { useState } from "react";
 
 const EXPERIENCES = [
-  { id: 1, title: "Dinner at a Michelin-Starred Restaurant", description: "A long, candlelit evening at one of Prague's celebrated restaurants — Czech cuisine reimagined with artistry and care.", goal: 350, tag: "Dining" },
-  { id: 3, title: "Sunset Cruise on the Vltava", description: "Drifting beneath Charles Bridge as the castle and city skyline turn golden in the evening light.", goal: 200, tag: "Experience" },
-  { id: 4, title: "Spa Day at a Historic Bathhouse", description: "Soaking in thermal waters in a centuries-old building — the kind of afternoon that makes you forget what day it is.", goal: 250, tag: "Wellness" },
-  { id: 5, title: "Czech Wine & Beer Tasting", description: "From Moravian whites in hidden cellars to craft breweries in converted factories — tasting our way through the city.", goal: 175, tag: "Dining" },
-  { id: 6, title: "Day Trip to Český Krumlov", description: "A fairy-tale medieval town in the Bohemian countryside, with a Renaissance castle perched above a winding river.", goal: 200, tag: "Adventure" },
-  { id: 7, title: "A Night at a Boutique Hotel", description: "Waking up in a beautifully restored building in Malá Strana, with rooftop views of the castle and red-tiled roofs.", goal: 350, tag: "Stay" },
-  { id: 8, title: "Flights & Travel Fund", description: "Help get us from New York to Prague and back — every mile matters.", goal: 2000, tag: "Travel" },
+  { id: 1, title: "Omakase Dinner in Tokyo", description: "A once-in-a-lifetime meal at a tiny counter-seat restaurant, watching a master chef prepare each course by hand.", goal: 400, tag: "Dining" },
+  { id: 3, title: "Stay at a Traditional Ryokan", description: "Tatami floors, futon beds, kaiseki dinners, and hot spring baths — slowing down the Japanese way.", goal: 350, tag: "Stay" },
+  { id: 4, title: "Day Trip to Kyoto's Temples", description: "Wandering through bamboo groves, golden pavilions, and moss gardens with centuries of stillness in the air.", goal: 200, tag: "Experience" },
+  { id: 5, title: "Sake Tasting in the Fushimi District", description: "Kyoto's historic brewing quarter — sampling everything from crisp junmai to rich aged daiginjo straight from the source.", goal: 175, tag: "Dining" },
+  { id: 6, title: "Bullet Train Across the Country", description: "Watching the landscape blur from Tokyo to Kyoto at 200 mph — Mount Fuji out the window if we're lucky.", goal: 250, tag: "Travel" },
+  { id: 7, title: "Onsen Experience in Hakone", description: "Soaking in natural hot springs with views of forested mountains and volcanic steam rising from the valley.", goal: 250, tag: "Wellness" },
+  { id: 8, title: "Flights & Travel Fund", description: "Help get us from New York to Tokyo and back — every mile matters.", goal: 2000, tag: "Travel" },
 ];
 
 const PRESETS = [50, 100, 150, 250];
@@ -153,13 +153,13 @@ export default function HoneymoonFund() {
         <p style={S.over}>The Honeymoon Fund of</p>
         <h1 style={S.names}>Daia &amp; Bertie</h1>
         <Ornament />
-        <p style={S.dest}>Prague, Czech Republic</p>
+        <p style={S.dest}>Japan</p>
         <p style={S.body}>
           Your presence at our wedding is the greatest gift we could ask for.
           But if you'd like to contribute to the next chapter of our adventure
-          together, we're heading to Prague — a city of spires, cobblestones,
-          and golden light — for a week of exploring one of the most beautiful
-          cities in the world.
+          together, we're heading to Japan — for temple gardens, mountain hot
+          springs, extraordinary food, and the kind of beauty that stays
+          with you long after you come home.
         </p>
         <p style={S.sub}>Every contribution, no matter the size, goes directly toward making these memories real.</p>
       </header>
