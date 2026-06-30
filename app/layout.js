@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "Daia & Bertie — Honeymoon Fund",
-  description: "Contribute to our honeymoon in the Julian Alps, Slovenia",
+  description: "Contribute to our honeymoon in Japan",
 };
 
 export default function RootLayout({ children }) {
